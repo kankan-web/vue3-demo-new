@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Mirror the Github organization repos to Gitee.
-        uses: 2728360489@qq.com
+        uses: Yikun/hub-mirror-action@master
         with:
           src: 'github/kankan-web'
           dst: 'gitee/kankan-web'
