@@ -14,5 +14,6 @@ jobs:
           dst: 'gitee/kankan-web'
           dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
           dst_token:  ${{ secrets.GITEE_TOKEN }}
+          static_list: "vue3-demo"
           force_update: true
           debug: true
